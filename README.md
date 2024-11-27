@@ -38,16 +38,16 @@ java - -version
 The application is built on a Model-View-Controller design pattern, which has distinct layers for core functions, GUI, and User interactions.
 
 
-# Model-Layer
+****Model-Layer****
 Turtle class, which encapsulates its state properties and provides methods.
 Arena class provides the drawing canvas and renders turtle movements.
-
-# Controller-Layer
+**Controller-Layer******
 Parser class, which interprets user-entered commands and converts them into actions performed by the Turtle and Arena.
 Chain compatibility with different command syntaxes.
-
-# View-Layer
+**View-Layer******
 GUI framework, built with Swing and AWT libraries for cross-platform compatibility. Manages all graphical elements.
+
+
 
 
 
